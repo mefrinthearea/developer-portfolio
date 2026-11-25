@@ -1,32 +1,35 @@
-# Personal Portfolio — Early Version
+# Giorgi Meparishvili — Developer Portfolio
 
-An early multi-page personal portfolio exploring visual layout and navigation.
+A redesigned version of my original HTML/CSS personal website, presenting selected software projects, technical skills, education and contact information.
 
 ## Features
 
-Home, services and contact pages; profile image, navigation and social links.
+- Responsive single-page layout with the original portrait and refined dark/green visual identity.
+- Dark and light themes with local preference storage.
+- Filterable project catalog with real screenshots and source links.
+- Keyboard-accessible navigation and reduced-motion support.
+- Static architecture: HTML, CSS and vanilla JavaScript; no backend, build tools or dependencies.
 
-## Technology
-
-HTML, CSS and Boxicons.
-
-## Getting started
+## Local preview
 
 ```sh
 git clone https://github.com/mefrinthearea/Portfolio-02.git
 cd Portfolio-02
+python3 -m http.server 8085 --bind 127.0.0.1
 ```
 
-Open `portoflio/page.html` in a browser. No package installation or build step is required. External fonts or icons may require an internet connection.
+Open http://127.0.0.1:8085 in a browser.
 
-## Entry point
+## Structure
 
-`portoflio/page.html`
+- `index.html` — root entry point
+- `portoflio/page.html` — portfolio content
+- `portoflio/page.css` — layout, typography and themes
+- `portoflio/portfolio.js` — navigation, filters and theme interaction
+- `portoflio/home.png` — original portrait
 
-## Scope and limitations
+Screenshots load from the corresponding public project repositories. The original contact and services entry points redirect to the relevant portfolio sections.
 
-The CV download and some navigation links are placeholders. This is a historical learning project, not my current professional portfolio.
+## Status
 
-## Project status
-
-Early learning project retained to document development progress. Source reviewed for documentation; runtime behavior has not been re-tested in this update.
+Redesigned for professional portfolio use. Browser testing and GitHub Pages activation are pending. CV download will be added when the final CV is available.
