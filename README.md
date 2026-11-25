@@ -13,8 +13,8 @@ A redesigned version of my original HTML/CSS personal website, presenting select
 ## Local preview
 
 ```sh
-git clone https://github.com/mefrinthearea/Portfolio-02.git
-cd Portfolio-02
+git clone https://github.com/mefrinthearea/developer-portfolio.git
+cd developer-portfolio
 python3 -m http.server 8085 --bind 127.0.0.1
 ```
 
